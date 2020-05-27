@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.melayu">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CRUD.EditarActivity"></activity>
+        <activity android:name=".CRUD.MostrarActivity" />
+        <activity android:name=".CRUD.PageCRUD" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".QuizActivityS" />
+        <activity android:name=".StartingScreenActivityS" />
+        <activity android:name=".S" />
+        <activity android:name=".QuizActivityB" />
+        <activity android:name=".StartingScreenActivityB" />
+        <activity android:name=".QuizActivityA" />
+        <activity android:name=".StartingScreenActivityA" />
+        <activity android:name=".Quiz5Activity" />
+        <activity android:name=".StartingScreen5Activity" />
+        <activity android:name=".Quiz4Activity" />
+        <activity android:name=".StartingScreen4Activity" />
+        <activity android:name=".Quiz3Activity" />
+        <activity android:name=".StartingScreen3Activity" />
+        <activity android:name=".page4" />
+        <activity android:name=".Quiz2Activity" />
+        <activity android:name=".StartingScreen2Activity" />
+        <activity android:name=".StartingScreen1Activity" />
+        <activity android:name=".Quiz1Activity" />
+        <activity android:name=".devolop" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".StartingScreenActivity" />
+        <activity android:name=".page3_5" />
+        <activity android:name=".page3_4" />
+        <activity android:name=".page3_3" />
+        <activity android:name=".page3_2" />
+        <activity android:name=".page3_1" />
+        <activity android:name=".page3" />
+        <activity android:name=".page2_10" />
+        <activity android:name=".page2_9" />
+        <activity android:name=".page2_8" />
+        <activity android:name=".page2_7" />
+        <activity android:name=".page2_6" />
+        <activity android:name=".page2_5" />
+        <activity android:name=".page2_4" />
+        <activity android:name=".page2_3" />
+        <activity android:name=".page2_2" />
+        <activity android:name=".page2_1" />
+        <activity android:name=".page1_12" />
+        <activity android:name=".page1_11" />
+        <activity android:name=".page1_10" />
+        <activity android:name=".page1_9" />
+        <activity android:name=".page1_8" />
+        <activity android:name=".page1_7" />
+        <activity android:name=".page1_6" />
+        <activity android:name=".psge1_5" />
+        <activity android:name=".page1_4" />
+        <activity android:name=".page1_3" />
+        <activity android:name=".page1_2" />
+        <activity android:name=".page1_1" />
+        <activity android:name=".page2" />
+        <activity android:name=".page1" />
+        <activity android:name=".home_page" /> <!-- <activity android:name="com.example.melayuu.page2y_1" /> -->
+        <activity
+            android:name="com.theartofdev.edmodo.oropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>
